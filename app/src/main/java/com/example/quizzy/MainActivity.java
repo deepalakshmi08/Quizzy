@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Menu;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -52,5 +53,7 @@ public class MainActivity extends AppCompatActivity {
             }
         },3000);
     }
+
+
 }
 
