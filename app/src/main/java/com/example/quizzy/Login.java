@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class Login extends AppCompatActivity {
 
@@ -18,7 +19,8 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         Button admin;
-
+        Button loginButton;
+        Button signup;
         admin=findViewById(R.id.admin);
         admin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +30,27 @@ public class Login extends AppCompatActivity {
                 finish();
             }
         });
+
+        loginButton=findViewById(R.id.loginButton);
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(Login.this,Categories.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
+        signup=findViewById(R.id.signup);
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(Login.this,Categories.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

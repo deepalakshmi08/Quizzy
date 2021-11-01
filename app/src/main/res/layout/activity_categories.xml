@@ -1,32 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="@drawable/halfbg1"
-    android:padding="30dp"
-    tools:context=".AdminPanel">
-
-    <ImageView
-        android:id="@+id/logo_image"
-        android:layout_width="133dp"
-        android:layout_height="114dp"
-        android:src="@drawable/splash" />
-
-    <ImageView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginLeft="260dp"
-        android:src="@drawable/menu1"/>
+    tools:context=".AdminPanel"
+    android:background="#4EE1D3">
 
     <LinearLayout
-        android:layout_width="372dp"
-        android:layout_height="331dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginBottom="100dp"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Categories"
+            android:textSize="30sp"
+            android:fontFamily="@font/bungee"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/lato_bold"
+                android:padding="5dp"
+                android:text="General"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="500dp"
+                android:layout_marginLeft="200dp"
+                android:src="@drawable/general" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="220dp"
+                android:src="@drawable/technical" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="210dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="Technical"
+                android:textSize="30sp" />
 
 
+        </RelativeLayout>
 
-</RelativeLayout>
+    </LinearLayout>
+   
+
+</ScrollView>
+

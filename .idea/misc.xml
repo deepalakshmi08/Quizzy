@@ -6,13 +6,18 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/drawable/box.xml" value="0.2703125" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/drawable/genbg.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/drawable/ic_profile.xml" value="0.2703125" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/drawable/ic_settings.xml" value="0.2703125" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/drawable/round_back_white.xml" value="0.2703125" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/font/bangers.xml" value="0.284375" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/font/bungee.xml" value="0.284375" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_admin_login.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_admin_panel.xml" value="0.2" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_categories.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_admin_login.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_admin_panel.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_categories.xml" value="0.23255813953488372" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_help.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_login.xml" value="0.20689655172413793" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_manage_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_user_edit.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Quizzy/app/src/main/res/layout/activity_user_edit2.xml" value="0.25416666666666665" />

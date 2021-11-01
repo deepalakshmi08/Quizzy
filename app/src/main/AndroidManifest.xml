@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quizzy">
         <activity
+            android:name=".Help"
+            android:exported="true" />
+        <activity
+            android:name=".ManageAdmin"
+            android:exported="true" />
+        <activity
             android:name=".UserEdit"
             android:exported="true" />
         <activity
@@ -30,8 +36,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            >
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

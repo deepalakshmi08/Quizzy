@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/logo_image"
-        android:layout_width="133dp"
-        android:layout_height="114dp"
+        android:layout_width="133sp"
+        android:layout_height="114sp"
         android:src="@drawable/splash" />
 
     <TextView
@@ -22,16 +22,16 @@
         android:fontFamily="@font/bungee"
         android:text="Register here"
         android:textSize="15sp"
-        android:layout_marginTop="105dp"
+        android:layout_marginTop="105sp"
         android:layout_gravity="center"/>
 
 
     <LinearLayout
-        android:layout_width="377dp"
-        android:layout_height="507dp"
+        android:layout_width="377sp"
+        android:layout_height="507sp"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="140dp"
-        android:layout_marginBottom="2dp"
+        android:layout_marginTop="140sp"
+        android:layout_marginBottom="2sp"
         android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
@@ -104,7 +104,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="50sp"
             android:backgroundTint="@color/black"
             android:text="Register"/>
 
@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:text="Already exists? Click here"
             android:layout_gravity="center"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30sp"/>
 
     </LinearLayout>
 
